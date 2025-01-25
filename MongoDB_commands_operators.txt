@@ -1,0 +1,11 @@
+// Show list of Databases
+show dbs
+
+// Create DataBase
+use <DataBase Name>
+
+// Create Collection
+db.createCollection("<COLLECTION_NAME>")
+
+// Insert Document
+db.COLLECTION_NAME.insertOne({YOUR_JSON_OBJECT})
